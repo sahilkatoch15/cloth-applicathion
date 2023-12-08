@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    /* font-family: 'ralewayblack'; */
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background: white;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 25px 10px -10;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.logo i {
+    color: rgb(127, 255, 0);
+}
+
+span {
+    color: black;
+}
+
+.navbar a {
+    font-size: 20px;
+    margin: 0 10px;
+    color: black;
+}
+
+.navbar a:hover {
+    color: rgb(127, 255, 0);
+}
+
+.icons i:hover {
+    color: rgb(127, 255, 0);
+}
+
+/* /* End header */
+
+
+
+/* list css */
+section {
+    padding: 87px 59px;
+}
+
+.card {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    text-align: center;
+    padding: 1.5em;
+    margin-bottom: 2em;
+}
+
+.images {
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 1.3rem;
+}
+
+.category,
+.price {
+    font-weight: bold;
+    margin: 1em;
+    font-size: 1.2rem;
+}
+
+.btn {
+    border: none;
+    padding: 8px 26px;
+    background: rgb(127, 255, 0);
+    color: #000;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background: #fff;
+    border: 1px solid #000;
+}
+
+/* list css */
+
+
+
+/* nue */
+/* .main {
+    margin-top: 100px;
+} */

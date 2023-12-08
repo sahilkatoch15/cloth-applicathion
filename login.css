@@ -1,0 +1,96 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-video {
+    position: absolute;
+    right: 0%;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio :16/9) {
+    .back-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio :16/9) {
+    .back-video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+
+/* in banner */
+.wrapper {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    background: #ffffffb5;
+    width: 300px;
+    border-radius: 18px;
+    padding: 40px;
+}
+
+/* End In Banner */
+
+
+
+/* log */
+.log {
+    text-align: center;
+    text-transform:capitalize;
+}
+
+/* sign */
+
+
+
+/* input */
+.inputs {
+    margin: 15px 0px;
+}
+
+input {
+    border-radius: 30px;
+    padding: 7px 20px;
+    border: none;
+}
+
+.button {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.button .buttons {
+    padding: 2px 82px;
+    border-radius: 30px;
+    font-size: 19px;
+}
+
+.sign {
+    text-align: center;
+    font-size: 17px;
+}
+
+/* End input */
